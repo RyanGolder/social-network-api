@@ -23,7 +23,7 @@ The Social Network API is a powerful and scalable backend solution for building 
 ## Usage
 To use this application, refer to the installation instructions beforehand. Once you have installed what you require, in your integrated termainal, type 'node server.js' and hit enter. You will then be able to open Insomnia. Below is a video link to assist:
 
-INSERT VIDEO LINK
+https://watch.screencastify.com/v/InXdxFgba9ebQga0YP4x
 
 ## Links
 
