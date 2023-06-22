@@ -20,9 +20,10 @@ router.get('/users', async (req, res) => {
 // GET a single user by its _id and populated thought and friend data
 router.get('/users/:id', async (req, res) => {
   try {
-    const user = await User.findById(req.params.id).populate('thoughts').populate('friends');
+    const user = await User.findById(req.params.id);
     res.json(user);
   } catch (err) {
+    console.log(err);
     res.status(500).json(err);
   }
 });
